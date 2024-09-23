@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #0E74BA;
+  margin-bottom: 20px;
+}
+
+.header p {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.header strong {
+  color: #0E74BA;
+}
+
+.callToAction {
+  font-size: 1.4rem;
+  color: #666666;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.quizzes {
+  width: 100%;
+  text-align: center;
+}
+
+.quizzes h2 {
+  font-size: 2rem;
+  color: #0E74BA;
+  margin-bottom: 20px;
+}
+
+.quizList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.bannerContainer {
+  position: relative; /* Necessário para o posicionamento absoluto do texto */
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden; /* Garante que o conteúdo não transborde */
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bannerText {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Degradê do rodapé */
+  color: #fff; /* Cor branca para o texto */
+  text-align: center; /* Centraliza o texto */
+}
+
+.bannerText p {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+
+  .quizzes h2 {
+    font-size: 1.5rem;
+  }
+
+  .quizList {
+    gap: 15px;
+  }
+}
+
+/* Para telas menores que 576px (celulares) */
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .quizList {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

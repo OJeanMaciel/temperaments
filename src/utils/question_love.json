@@ -1,0 +1,213 @@
+[
+    {
+      "question": "Como você prefere ser reconhecido por algo que fez de bom?",
+      "options": [
+        {
+          "text": "Receber elogios sinceros",
+          "weight": {"words_of_affirmation": 3}
+        },
+        {
+          "text": "Receber um abraço",
+          "weight": {"physical_touch": 3}
+        },
+        {
+          "text": "Ganhar um presente",
+          "weight": {"receiving_gifts": 3}
+        },
+        {
+          "text": "Ter um tempo de qualidade com alguém",
+          "weight": {"quality_time": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você demonstra seu amor por alguém?",
+      "options": [
+        {
+          "text": "Oferecendo ajuda nas tarefas",
+          "weight": {"acts_of_service": 3}
+        },
+        {
+          "text": "Dizendo palavras de encorajamento",
+          "weight": {"words_of_affirmation": 3}
+        },
+        {
+          "text": "Dando presentes",
+          "weight": {"receiving_gifts": 3}
+        },
+        {
+          "text": "Ficando perto fisicamente",
+          "weight": {"physical_touch": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere passar o tempo com seu parceiro(a)?",
+      "options": [
+        {
+          "text": "Conversando e trocando ideias",
+          "weight": {"quality_time": 3}
+        },
+        {
+          "text": "Realizando atividades juntos",
+          "weight": {"acts_of_service": 3}
+        },
+        {
+          "text": "Dando abraços e carinhos",
+          "weight": {"physical_touch": 3}
+        },
+        {
+          "text": "Trocando palavras de amor",
+          "weight": {"words_of_affirmation": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que você mais aprecia em um relacionamento?",
+      "options": [
+        {
+          "text": "Ser ouvido e compreendido",
+          "weight": {"quality_time": 3}
+        },
+        {
+          "text": "Receber elogios sinceros",
+          "weight": {"words_of_affirmation": 3}
+        },
+        {
+          "text": "Sentir-se próximo fisicamente",
+          "weight": {"physical_touch": 3}
+        },
+        {
+          "text": "Receber ajuda nas tarefas",
+          "weight": {"acts_of_service": 3}
+        }
+      ]
+    },
+    {
+      "question": "Qual gesto mais te faz sentir amado(a)?",
+      "options": [
+        {
+          "text": "Um presente inesperado",
+          "weight": {"receiving_gifts": 3}
+        },
+        {
+          "text": "Palavras gentis e motivadoras",
+          "weight": {"words_of_affirmation": 3}
+        },
+        {
+          "text": "Tempo exclusivo para conversar",
+          "weight": {"quality_time": 3}
+        },
+        {
+          "text": "Um toque carinhoso",
+          "weight": {"physical_touch": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você reage quando alguém faz algo gentil por você sem pedir?",
+      "options": [
+        {
+          "text": "Sinto-me muito grato(a)",
+          "weight": {"acts_of_service": 3}
+        },
+        {
+          "text": "Sinto-me amado(a)",
+          "weight": {"quality_time": 1, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Sinto-me valorizado(a)",
+          "weight": {"receiving_gifts": 2}
+        },
+        {
+          "text": "Sinto-me conectado(a)",
+          "weight": {"physical_touch": 1, "quality_time": 1}
+        }
+      ]
+    },
+    {
+      "question": "Qual desses presentes significaria mais para você?",
+      "options": [
+        {
+          "text": "Algo que eu queria há muito tempo",
+          "weight": {"receiving_gifts": 3}
+        },
+        {
+          "text": "Um bilhete cheio de palavras carinhosas",
+          "weight": {"words_of_affirmation": 3}
+        },
+        {
+          "text": "Um passeio surpresa",
+          "weight": {"quality_time": 3}
+        },
+        {
+          "text": "Um abraço demorado",
+          "weight": {"physical_touch": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que você espera em um encontro romântico?",
+      "options": [
+        {
+          "text": "Uma boa conversa",
+          "weight": {"quality_time": 3}
+        },
+        {
+          "text": "Gestos carinhosos",
+          "weight": {"physical_touch": 3}
+        },
+        {
+          "text": "Surpresas agradáveis",
+          "weight": {"receiving_gifts": 3}
+        },
+        {
+          "text": "Ser elogiado(a)",
+          "weight": {"words_of_affirmation": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você se sente quando alguém te elogia?",
+      "options": [
+        {
+          "text": "Sinto-me valorizado(a)",
+          "weight": {"words_of_affirmation": 3}
+        },
+        {
+          "text": "Sinto-me amado(a)",
+          "weight": {"quality_time": 1, "physical_touch": 1}
+        },
+        {
+          "text": "Fico feliz, mas prefiro ações",
+          "weight": {"acts_of_service": 2}
+        },
+        {
+          "text": "Fico surpreso(a) e feliz",
+          "weight": {"receiving_gifts": 2}
+        }
+      ]
+    },
+    {
+      "question": "Como você gosta de expressar seu amor pelos outros?",
+      "options": [
+        {
+          "text": "Com palavras e elogios",
+          "weight": {"words_of_affirmation": 3}
+        },
+        {
+          "text": "Com gestos de ajuda",
+          "weight": {"acts_of_service": 3}
+        },
+        {
+          "text": "Com presentes",
+          "weight": {"receiving_gifts": 3}
+        },
+        {
+          "text": "Com abraços e carinhos",
+          "weight": {"physical_touch": 3}
+        }
+      ]
+    }
+  ]
+  

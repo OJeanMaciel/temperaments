@@ -1,0 +1,696 @@
+[
+    {
+      "question": "Como você reage diante de um desafio difícil?",
+      "options": [
+        {
+          "text": "Enfrento com determinação e energia",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Tento buscar apoio e motivação",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Analiso cuidadosamente antes de agir",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Prefiro evitar conflitos e seguir o fluxo",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você lida com mudanças inesperadas?",
+      "options": [
+        {
+          "text": "Adapto-me rapidamente e vejo como uma oportunidade",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Fico frustrado e tento controlar a situação",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Prefiro manter minha rotina e estabilidade",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Analiso todos os prós e contras antes de me adaptar",
+          "weight": {"melancholic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere organizar seu trabalho?",
+      "options": [
+        {
+          "text": "De forma metódica e detalhada",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Deixo espaço para criatividade e flexibilidade",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Com metas claras e objetivas",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Sem pressão, em um ritmo tranquilo",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você reage ao receber críticas?",
+      "options": [
+        {
+          "text": "Defendo minha posição com firmeza",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Aceito e procuro melhorar",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Evito confrontos e tento apaziguar",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Levo de forma leve e tento rir da situação",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que você valoriza mais em suas amizades?",
+      "options": [
+        {
+          "text": "Lealdade e confiança",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Diversão e momentos descontraídos",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Objetivos comuns e apoio mútuo",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Paz e harmonia",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você toma decisões importantes?",
+      "options": [
+        {
+          "text": "Baseado em análises e fatos concretos",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Tomo rapidamente, sem hesitar",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Pondero calmamente todos os aspectos",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Sigo minha intuição e o que me parece certo",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere passar o tempo livre?",
+      "options": [
+        {
+          "text": "Socializando com amigos e fazendo novas atividades",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Relaxando em casa com um bom livro",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Focando em projetos e metas pessoais",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Explorando hobbies que exigem concentração",
+          "weight": {"melancholic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você reage em situações de pressão?",
+      "options": [
+        {
+          "text": "Mantenho a calma e sigo o plano",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Sinto-me energizado e pronto para agir",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Fico ansioso e me preocupo com os detalhes",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Procuro distrair a mente com humor e descontração",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você lida com responsabilidades?",
+      "options": [
+        {
+          "text": "Assumo e gosto de liderar",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Faço o necessário, mas prefiro evitar destaque",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Assumo com seriedade e dedicação",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Prefiro colaborar e dividir tarefas",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Qual é sua reação ao encontrar uma pessoa nova?",
+      "options": [
+        {
+          "text": "Sou amigável e tento fazer uma boa impressão",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Sou reservado e observo antes de interagir",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Gosto de conhecer as pessoas profundamente",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Sou direto e objetivo na conversa",
+          "weight": {"choleric": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você lida com conflitos pessoais?",
+      "options": [
+        {
+          "text": "Procuro resolver de forma racional e objetiva",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Tento evitar ao máximo",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Prefiro discutir e esclarecer todos os pontos",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Levo na brincadeira e tento aliviar o clima",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Qual é sua prioridade ao realizar uma tarefa em grupo?",
+      "options": [
+        {
+          "text": "Ter todos engajados e participando",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Que o trabalho seja feito com qualidade",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Concluir a tarefa de maneira eficiente",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Manter um ambiente harmonioso",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você se sente ao assumir novos projetos?",
+      "options": [
+        {
+          "text": "Empolgado com a possibilidade de explorar novas ideias",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Determinado a alcançar resultados",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Preocupado em atender todas as expectativas",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Confortável desde que não cause muito estresse",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você lida com suas emoções?",
+      "options": [
+        {
+          "text": "Expressando abertamente e com intensidade",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Mantendo-as sob controle e focando na solução",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Refletindo profundamente sobre elas",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Prefiro não demonstrar muito",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que mais te motiva no trabalho?",
+      "options": [
+        {
+          "text": "A possibilidade de alcançar grandes objetivos",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "O ambiente de trabalho positivo e acolhedor",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "As novas oportunidades e desafios",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "O reconhecimento pelo esforço e dedicação",
+          "weight": {"melancholic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere resolver problemas complexos?",
+      "options": [
+        {
+          "text": "De forma prática e direta",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Analisando todos os detalhes e consequências",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Mantendo a calma e buscando uma solução harmoniosa",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Pensando criativamente e fora da caixa",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Qual a melhor forma de aprender algo novo para você?",
+      "options": [
+        {
+          "text": "Praticando e experimentando na prática",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Estudando teorias e métodos aprofundados",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Aplicando diretamente em um projeto",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Observando e refletindo sobre as experiências",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que mais te incomoda no comportamento das pessoas?",
+      "options": [
+        {
+          "text": "Inconstância e falta de comprometimento",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Passividade e falta de iniciativa",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Conflitos e falta de empatia",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Rigidez e falta de flexibilidade",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere resolver desentendimentos?",
+      "options": [
+        {
+          "text": "Conversando até chegar a um acordo",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Deixando passar para evitar mais problemas",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Defendendo meu ponto de vista com firmeza",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Tentando entender todos os lados envolvidos",
+          "weight": {"melancholic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você lida com a falta de resultados em um projeto?",
+      "options": [
+        {
+          "text": "Persisto e busco soluções alternativas",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Fico desapontado e analiso onde errei",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Busco conselhos e apoio de outras pessoas",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Aceito e espero o momento certo para tentar de novo",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que é mais importante para você ao assumir uma posição de liderança?",
+      "options": [
+        {
+          "text": "Alcançar metas e objetivos definidos",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Criar um ambiente harmonioso e cooperativo",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Motivar e inspirar a equipe",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Garantir qualidade e integridade no trabalho",
+          "weight": {"melancholic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere lidar com tarefas difíceis?",
+      "options": [
+        {
+          "text": "Atacando diretamente, sem procrastinar",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Quebrando em pequenas partes e resolvendo aos poucos",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Procurando apoio e colaboração",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Aceitando com calma e fazendo no meu tempo",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você reage diante de críticas injustas?",
+      "options": [
+        {
+          "text": "Defendo-me com veemência",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Fico magoado, mas tento entender a razão",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Ignoro e sigo em frente",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Uso o humor para lidar com a situação",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que mais te motiva a acordar todos os dias?",
+      "options": [
+        {
+          "text": "A perspectiva de novas conquistas e desafios",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "A paz e tranquilidade de um novo dia",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "A alegria de encontrar e interagir com as pessoas",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "A busca por aperfeiçoamento e realização pessoal",
+          "weight": {"melancholic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você reage ao fracasso?",
+      "options": [
+        {
+          "text": "Tento novamente com mais determinação",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Reflito profundamente sobre o que deu errado",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Aceito com calma e espero por outra oportunidade",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Procuro apoio e distração com amigos",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você reage quando seu plano não dá certo?",
+      "options": [
+        {
+          "text": "Faço outro plano rapidamente",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Analiso detalhadamente onde falhei",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Não me abalo e sigo em frente",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Procuro ver o lado positivo e rir da situação",
+          "weight": {"sanguine": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere lidar com situações desconhecidas?",
+      "options": [
+        {
+          "text": "Com entusiasmo e curiosidade",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Com planejamento e cautela",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Com assertividade e determinação",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Com paciência e tranquilidade",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você lida com o estresse?",
+      "options": [
+        {
+          "text": "Descarrego a energia fazendo atividades físicas",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Falo sobre o que sinto com pessoas próximas",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Medito ou pratico atividades relaxantes",
+          "weight": {"phlegmatic": 3}
+        },
+        {
+          "text": "Analiso as causas e busco eliminar o problema",
+          "weight": {"melancholic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere organizar sua vida pessoal?",
+      "options": [
+        {
+          "text": "Com planejamento detalhado e metas claras",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "De forma prática e focada no essencial",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Com flexibilidade e abertura a novas experiências",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Com simplicidade e equilíbrio",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você prefere enfrentar os problemas?",
+      "options": [
+        {
+          "text": "Diretamente e com firmeza",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Com cautela e análise profunda",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "De forma flexível e buscando apoio",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Com paciência e calma",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "O que mais te motiva a ajudar os outros?",
+      "options": [
+        {
+          "text": "A satisfação de contribuir para o sucesso deles",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "O prazer de ver as pessoas felizes",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "A sensação de fazer a coisa certa",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "A vontade de criar um ambiente mais pacífico",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você se sente ao conhecer novas pessoas?",
+      "options": [
+        {
+          "text": "Animado com a possibilidade de fazer novas amizades",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Curioso para aprender mais sobre elas",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Confiante em mostrar minhas ideias",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Tranquilo e sem pressa para me abrir",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    },
+    {
+      "question": "Como você lida com a frustração?",
+      "options": [
+        {
+          "text": "Libero a energia em atividades físicas",
+          "weight": {"choleric": 3}
+        },
+        {
+          "text": "Desabafo com amigos e procuro me distrair",
+          "weight": {"sanguine": 3}
+        },
+        {
+          "text": "Reflexiono sobre o que causou o problema",
+          "weight": {"melancholic": 3}
+        },
+        {
+          "text": "Aceito a situação e sigo em frente",
+          "weight": {"phlegmatic": 3}
+        }
+      ]
+    }
+  ]
+  

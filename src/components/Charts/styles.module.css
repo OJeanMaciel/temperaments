@@ -1,0 +1,41 @@
+.charts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.title {
+    color: #0E74BA;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.chartContainer {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+}
+
+.description {
+    color: #0E74BA;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .chartContainer {
+        max-width: 300px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}

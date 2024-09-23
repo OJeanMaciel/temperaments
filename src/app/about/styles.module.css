@@ -1,0 +1,137 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #0e74ba;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #0e74ba;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.list li {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 20px;
+  border-radius: 12px;
+  color: #0e74ba;
+  text-align: center;
+}
+
+.footerTitle {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 1.1rem;
+}
+
+/* Responsividade */
+
+/* Para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .list li {
+    font-size: 1rem;
+  }
+
+  .footerTitle {
+    font-size: 1.5rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+}
+
+/* Para telas menores que 576px (celulares) */
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .list li {
+    font-size: 0.95rem;
+  }
+
+  .footerTitle {
+    font-size: 1.3rem;
+  }
+
+  .footer p {
+    font-size: 0.95rem;
+  }
+}

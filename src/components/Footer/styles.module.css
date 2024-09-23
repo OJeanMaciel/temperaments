@@ -1,0 +1,51 @@
+/* src/app/components/Footer/styles.module.css */
+
+.footer {
+  background-color: #fff;
+  color: #222;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #F6B10D;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logoSection p {
+  margin-top: 10px;
+}
+
+.socialSection ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.socialSection li {
+  margin: 0 10px;
+}
+
+.socialSection a {
+  color: #222;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.socialSection a:hover {
+  color: #F6B10D;
+  text-decoration: underline;
+}
